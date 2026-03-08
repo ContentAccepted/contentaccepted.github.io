@@ -1,14 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head><title>study guides</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study guides</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #555;
+        }
+
+        h1 {
+            font-weight: 300;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a90e2; /* The blue from your image */
+            font-size: 2.5rem;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 1.2rem;
+            color: #888;
+        }
+    </style>
+</head>
 <body>
-  <h1>my study guides</h1>
-  <h1>made by adem751 (shhhh)</h1>
-  <ul>
-    <li><a href="math.html">math</a></li>
-    <li><a href="science.html">science</a></li>
-    <li><a href="ela.html">english/language arts</a></li>
-    <li><a href="history.html">history</a></li>
-  </ul>
+
+    <h1>study guides</h1>
+
+    <div class="links">
+        <a href="math.html">math</a>
+        <a href="science.html">science</a>
+        <a href="language.html">language</a>
+        <a href="ela.html">ELA</a>
+    </div>
+
+    <footer>
+        Made by ContentAccepted, student project 1
+    </footer>
+
 </body>
 </html>
